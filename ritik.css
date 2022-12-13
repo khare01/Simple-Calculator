@@ -89,7 +89,7 @@ p{
 @media screen and (max-width: 600px){
 
     #ritik,#ritik2,#ritik3,#ritik4,#ritik5{
-        height: 10vh;
+        height: 25vh;
     }
     .r1{
         transform: translate(0vh,25vh);
