@@ -1,0 +1,137 @@
+
+.cont{
+    transform: translate(1vw,20vh);
+    display: flex;   
+}
+.r2{
+    display: inline;
+    transform: translate(36.8vw,2vh);
+}
+.r3{
+ display: inline;
+ transform: translate(17vw,25vh);
+}
+.r4{
+      transform: translate(3vw,48vh)
+}
+
+#ritik,#ritik2,#ritik3,#ritik4,#ritik5{
+    height: 20vh;
+    border-radius: 10px;
+    transition: 1s;
+}
+#ritik2:hover,#ritik3:hover{
+    transform: rotate(-0.1turn);
+}
+#ritik4:hover,#ritik:hover{
+    transform: rotate(0.1turn);
+}
+#ritik5:hover{
+  transform: scale(1.2);
+}
+#ritik{
+    transform: translate(2vh,0vh);
+}
+#ritik4{
+    transform: translate(1vw,0vh); 
+}
+body{
+    background-image:url('download1.jpg');
+    background-position: center;
+    background-size:100% 100% ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin:0;
+    padding: 0;
+    
+}
+.ritik1#khare1{
+    transform: translate(23vw,0vw);
+    margin-bottom: 4vh;
+}
+
+.r1{
+    border: 4px solid black;
+    transform: translate(0vh,20vh);
+    margin-left: 20vh;
+    margin-right: 20vh;
+    background-color: rgba(238, 173, 44, 0.716)
+}
+h1{
+    text-align: center;
+    font-size: 7vw;
+    font-family:cursive;
+    color:rgb(70, 74, 74); 
+    margin-top: 1vh;
+    text-decoration: underline black;
+    
+} 
+p{
+    font-size:3vh ;
+    font-family: cursive;
+    margin: 0;
+    padding: 0;
+}
+#khare,#clr{
+    padding: 1vh 1vw;
+    border-radius: 10px;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+     transform: translate(35vh,1vh);
+}
+#first,#second,#answer{
+    border: 2px solid black;
+    height: 3vh;
+    width: 8vw;
+}
+
+@media screen and (max-width: 600px){
+
+    #ritik,#ritik2,#ritik3,#ritik4,#ritik5{
+        height: 10vh;
+    }
+    .r1{
+        transform: translate(0vh,25vh);
+        margin-left:1vw ;
+        margin-right: 1vw;
+    }
+    .ritik1#khare1{
+        transform: translate(2vh,1vw);
+    }
+    p{
+        font-size: 4vw;
+    }
+    #khare,#clr{
+        transform: translate(15vh);
+        padding: 1vh 3vw;
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+        border-radius: 10px;
+        border:2px solid black;
+    }
+    #first,#second,#answer{
+        border: 3px solid black;
+        width: 24vw;
+    }
+   .cont{
+     
+     transform: translate(30vw,50vh);
+     display: block;
+   }
+   .r2{
+    display: flex;
+    transform: translate(20vw,1vh);
+   }
+   .r3{
+    display: flex;
+    transform: translate(20vw,2vh);
+   }
+   .r4{
+    display: flex;
+    transform: translate(34vw,3vh);
+   }
+   #ritik4{
+    transform: translate(2vh);
+   }
+}

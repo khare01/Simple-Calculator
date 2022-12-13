@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="ritik.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script>
+    function divide() {
+      var numOne, numTwo, d;
+      numOne = parseFloat(document.getElementById("first").value);
+      numTwo = parseFloat(document.getElementById("second").value);
+      d = numOne / numTwo;
+      document.getElementById("answer").value = d;
+    }
+    function clr() {
+      document.getElementById("first").value = " ";
+      document.getElementById("second").value = " ";
+      document.getElementById("answer").value = " ";
+      // document.getElementById("khare").;
+    }
+  </script>
+</head>
+
+<body>
+  <div class="r1">
+    <h1>DIVISION</h1>
+    <div class="ritik1" id="khare1">
+      <p><b>Enter the First Number : </b><input id="first" type="number" placeholder="In digits"></p><br>
+      <p><b>Enter the Second Number : </b><input id="second" type="number" placeholder="In digits"></p>
+      <button id="khare" onclick="divide()"><b>Divide</b></button>
+      <button id="clr" onclick="clr()" value="c"><b>C</b></button>
+      <p><b>Result is : </b><input id="answer" placeholder="Result"></p>
+    </div>
+  </div>
+</body>
+
+</html>
