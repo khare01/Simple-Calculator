@@ -121,15 +121,15 @@ p{
    }
    .r2{
     display: flex;
-    transform: translate(20vw,1vh);
+    transform: translate(1vw,1vh);
    }
    .r3{
     display: flex;
-    transform: translate(20vw,2vh);
+    transform: translate(1vw,2vh);
    }
    .r4{
     display: flex;
-    transform: translate(34vw,3vh);
+    transform: translate(30vw,3vh);
    }
    #ritik4{
     transform: translate(2vh);
