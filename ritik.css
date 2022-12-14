@@ -1,4 +1,7 @@
-
+*{
+    margin: 0;
+    padding: 0;
+}
 .cont{
     transform: translate(1vw,20vh);
     display: flex;   
