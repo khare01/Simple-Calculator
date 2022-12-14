@@ -50,7 +50,7 @@ body{
     
 }
 .ritik1#khare1{
-    transform: translate(23vw,0vw);
+    transform: translate(23vw,1vh);
     margin-bottom: 4vh;
 }
 
@@ -66,7 +66,6 @@ body{
     font-size: 7vw;
     font-family:cursive;
     color:rgb(70, 74, 74); 
-    margin-top: 1vh;
     text-decoration: underline black;
     
 } 
@@ -100,11 +99,10 @@ body{
         margin-right: 1vw;
     }
     .ritik1#khare1{
-        transform: translate(2vh,1vw);
+        transform: translate(2vh,3vw);
     }
     #p1{
         font-size: 4vw;
-          font-family: cursive;
     }
     #khare,#clr{
         transform: translate(15vh);
