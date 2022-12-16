@@ -2,20 +2,26 @@
     margin: 0;
     padding: 0;
 }
+.main{
+    transform: translate(0vh,20vh);
+    margin-left: 20vw;
+    margin-right: 20vw;
+}
 .cont{
-    transform: translate(1vw,20vh);
-    display: flex;   
+    transform: translate(0vw,20vh);
+    display: inline;   
 }
 .r2{
-    display: inline;
-    transform: translate(36.8vw,2vh);
+   
+    transform: translate(17vw,0vh);
 }
 .r3{
- display: inline;
- transform: translate(17vw,25vh);
+ display: flex;
+ transform: translate(17vw,1vh);
 }
 .r4{
-      transform: translate(3vw,48vh)
+    display: flex;
+      transform: translate(22.2vw,2vh)
 }
 
 #ritik,#ritik2,#ritik3,#ritik4,#ritik5{
@@ -30,17 +36,16 @@
     transform: rotate(0.1turn);
 }
 #ritik5:hover{
-  transform: scale(1.2);
+    transform: scale(1.2);
 }
 #ritik{
     transform: translate(2vh,0vh);
 }
 #ritik4{
-    transform: translate(1vw,0vh); 
+    transform: translate(1.2vw,0vh); 
 }
 body{
     background-image:url('download1.jpg');
-    background-position: center;
     background-size:100% 100% ;
     background-position: center;
     background-repeat: no-repeat;
@@ -50,7 +55,7 @@ body{
     
 }
 .ritik1#khare1{
-    transform: translate(23vw,1vh);
+    transform: translate(23vw,0vw);
     margin-bottom: 4vh;
 }
 
@@ -66,6 +71,7 @@ body{
     font-size: 7vw;
     font-family:cursive;
     color:rgb(70, 74, 74); 
+    margin-top: 1vh;
     text-decoration: underline black;
     
 } 
@@ -91,18 +97,27 @@ body{
 @media screen and (max-width: 600px){
 
     #ritik,#ritik2,#ritik3,#ritik4,#ritik5{
-        height: 25vh;
+        height: 14vh;
     }
+    *{
+        margin: 0;
+        padding: 0;
+    }
+   .main{
+     transform: translate(0vh,25vh);
+     display:inline-flex;
+   }
     .r1{
         transform: translate(0vh,25vh);
         margin-left:1vw ;
         margin-right: 1vw;
     }
     .ritik1#khare1{
-        transform: translate(2vh,3vw);
+        transform: translate(2vh,1vw);
     }
     #p1{
         font-size: 4vw;
+        font-family: cursive;
     }
     #khare,#clr{
         transform: translate(15vh);
@@ -117,13 +132,12 @@ body{
         width: 24vw;
     }
    .cont{
-     
-     transform: translate(30vw,40vh);
-     display: block;
+    transform: translate(0vh,2vh);
+
    }
    .r2{
     display: flex;
-    transform: translate(1vw,1vh);
+    transform: translate(1vw,0vh);
    }
    .r3{
     display: flex;
@@ -131,9 +145,21 @@ body{
    }
    .r4{
     display: flex;
-    transform: translate(30vw,3vh);
+    transform: translate(18vw,3vh);
+   }
+   #ritik2{
+    transform: translate(1vh);
+   }
+   #ritik3{
+     transform: translate(1vh);
+   }
+   #ritik5{
+        transform: translate(0vh);
+   }
+   #ritik{
+       transform: translate(3vh);
    }
    #ritik4{
-    transform: translate(2vh);
+    transform: translate(3vh);
    }
 }
