@@ -77,7 +77,7 @@ body{
 } 
 #p1{
     font-size:3vh ;
-    font-family: cursive;
+    font-family: "Gill Sans", sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -125,7 +125,7 @@ body{
     }
     #p1{
         font-size: 4vw;
-        font-family: cursive;
+       font-family: "Gill Sans", sans-serif;
     }
     #khare,#clr{
         transform: translate(15vh);
@@ -172,6 +172,6 @@ body{
    }
    #name{
     font-size: 4vh;
-    transform: translate(8vw,34vh);
+    transform: translate(5vw,34vh);
    }
 }
